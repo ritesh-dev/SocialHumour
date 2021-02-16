@@ -1,0 +1,64 @@
+.text-light {
+  color: #cfd8dc;
+}
+
+.text-dark {
+  color: #263238;
+}
+
+.text-primary {
+  color: #37474f;
+}
+
+.text-secondary {
+  color: #455a64;
+}
+
+.bg-light {
+  background-color: #cfd8dc;
+}
+
+.bg-dark {
+  background-color: #263238;
+}
+
+.bg-primary {
+  background-color: #37474f;
+}
+
+.bg-secondary {
+  background-color: #455a64;
+}
+
+.b-dark {
+  border: 2px solid #263238;
+}
+
+.b-r-0 {
+  border-radius: 0;
+}
+
+#blurred_base {
+  background: rgba(255, 255, 255, 0.671);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#login_btn {
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+#login_btn:hover {
+  transform: translateY(2px);
+}
+
+.input-group-addon {
+  background: white;
+  font-size: 1.5em;
+  border: 2px solid #263238;
+}
+
+/*# sourceMappingURL=style.css.map */

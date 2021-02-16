@@ -1,0 +1,61 @@
+$dark: #263238;
+$primary: #37474f;
+$secondary: #455a64;
+$light: #cfd8dc;
+
+.text-light {
+  color: $light;
+}
+.text-dark {
+  color: $dark;
+}
+.text-primary {
+  color: $primary;
+}
+.text-secondary {
+  color: $secondary;
+}
+
+.bg-light {
+  background-color: $light;
+}
+.bg-dark {
+  background-color: $dark;
+}
+.bg-primary {
+  background-color: $primary;
+}
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.b-dark{
+    border: 2px solid $dark;
+}
+
+.b-r-0{
+    border-radius: 0;
+}
+
+#blurred_base {
+    background: rgba(255, 255, 255, 0.671);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#login_btn{
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+#login_btn:hover{
+    transform: translateY(2px);
+}
+
+.input-group-addon{
+    background: white;
+    font-size: 1.5em;
+    border: 2px solid $dark;
+}

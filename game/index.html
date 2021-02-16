@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Social Humour</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="min-vh-100">
+    <div class="row no-gutters" style="background: url(./images/world_map.jpg)">
+      <div
+        class="col"
+        style="background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(4px)"
+      >
+        <div class="row no-gutters">
+          <div class="col-10">
+            <div class="contanier">
+              <div class="container p-4 text-light text-bold">Hi, Guest</div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="container p-4 text-light text-right">
+              <i class="fas fa-user-cog"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-4">
+            <div class="container p-4 text-center">
+              <div class="bg-light d-inline-flex p-4" id="create_room">
+                <i class="fas fa-folder-plus"></i>
+              </div>
+              <p class="text-light mt-4">Create Room</p>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="container p-4 text-center">
+              <div class="bg-light d-inline-flex p-4" id="create_room">
+                <i class="fas fa-globe-americas"></i>
+              </div>
+              <p class="text-light mt-4">Online Play</p>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="container p-4 text-center">
+              <div class="bg-light d-inline-flex p-4" id="create_room">
+                <i class="fas fa-terminal"></i>
+              </div>
+              <p class="text-light mt-4">Join Room</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters" id="">
+      <div class="col-12 p-0">
+        <div
+          class="container py-3 d-inline-flex"
+          id="cards_container"
+          style="overflow-y: scroll; overflow-y: hidden"
+        >
+          <div class="cc visa d-inline-flex" id="card_1">
+            <svg width="295" height="87">
+              <path d="M 0 0 C 50 50 250 0 300 87"></path>
+            </svg>
+            <div class="container1">
+              <div class="type">Humour</div>
+              <div class="circuit">EN</div>
+            </div>
+            <div class="holder">
+              <span class="name">
+                <i class="fas fa-unlock"></i>
+              </span>
+              <span class="number">200/400</span>
+            </div>
+          </div>
+
+          <div class="cc visa d-inline-flex ml-50" id="card_2">
+            <svg width="295" height="87">
+              <path d="M 0 0 C 50 50 250 0 300 87"></path>
+            </svg>
+            <div class="container1">
+              <div class="type">Kids</div>
+              <div class="circuit">EN</div>
+            </div>
+            <div class="holder">
+              <span class="name">
+                <i class="fas fa-unlock"></i>
+              </span>
+              <span class="number">200/400</span>
+            </div>
+          </div>
+
+          <div class="cc visa d-inline-flex ml-50" id="card_3">
+            <svg width="295" height="87">
+              <path d="M 0 0 C 50 50 250 0 300 87"></path>
+            </svg>
+            <div class="container1">
+              <div class="type">Double Meaning</div>
+              <div class="circuit">EN</div>
+            </div>
+            <div class="holder">
+              <span class="name">
+                <i class="fas fa-unlock"></i>
+              </span>
+              <span class="number">600/700</span>
+            </div>
+          </div>
+
+          <div class="cc visa d-inline-flex ml-50" id="card_3">
+            <svg width="295" height="87">
+              <path d="M 0 0 C 50 50 250 0 300 87"></path>
+            </svg>
+            <div class="container1">
+              <div class="type">Jokes</div>
+              <div class="circuit">EN</div>
+            </div>
+            <div class="holder">
+              <span class="name">
+                <i class="fas fa-unlock"></i>
+              </span>
+              <span class="number">400/600</span>
+            </div>
+          </div>
+
+          <div class="cc visa d-inline-flex ml-50" id="card_3">
+            <svg width="295" height="87">
+              <path d="M 0 0 C 50 50 250 0 300 87"></path>
+            </svg>
+            <div class="container1">
+              <div class="type">Adult</div>
+              <div class="circuit">EN</div>
+            </div>
+            <div class="holder">
+              <span class="name">
+                <i class="fas fa-unlock"></i>
+              </span>
+              <span class="number">500/900</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters fixed-bottom">
+      <div class="col-12">
+        <div class="container text-center p-4">
+          <a
+            href="#"
+            class="btn w-100 text-light bg-secondary px-4 py-3 font-weight-bold"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            >View Rules</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ol class="p-0 px-3">
+                <li>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam reprehenderit excepturi assumenda delectus cumque? Vel assumenda, quae fuga alias pariatur ipsa vitae dicta eaque facilis nam optio tempore iure cumque.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic deserunt magni rem. Optio asperiores eum consequatur deserunt, minima eos, dignissimos voluptatibus ex reiciendis beatae, perspiciatis labore hic! Placeat, dolore?
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic deserunt magni rem. Optio asperiores eum consequatur deserunt, minima eos, dignissimos voluptatibus ex reiciendis beatae, perspiciatis labore hic! Placeat, dolore?
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic deserunt magni rem. Optio asperiores eum consequatur deserunt, minima eos, dignissimos voluptatibus ex reiciendis beatae, perspiciatis labore hic! Placeat, dolore?
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic deserunt magni rem. Optio asperiores eum consequatur deserunt, minima eos, dignissimos voluptatibus ex reiciendis beatae, perspiciatis labore hic! Placeat, dolore?
+                </li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+      integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
