@@ -9,29 +9,29 @@ $light: #cfd8dc;
 }
 
 .text-light {
-  color: $light;
+  color: $light !important;
 }
 .text-dark {
-  color: $dark;
+  color: $dark !important;
 }
 .text-primary {
-  color: $primary;
+  color: $primary !important;
 }
 .text-secondary {
-  color: $secondary;
+  color: $secondary !important;
 }
 
 .bg-light {
-  background-color: $light;
+  background-color: $light !important;
 }
 .bg-dark {
-  background-color: $dark;
+  background-color: $dark !important;
 }
 .bg-primary {
-  background-color: $primary;
+  background-color: $primary !important;
 }
 .bg-secondary {
-  background-color: $secondary;
+  background-color: $secondary !important;
 }
 
 .b-dark {
@@ -40,6 +40,10 @@ $light: #cfd8dc;
 
 .b-r-0 {
   border-radius: 0;
+}
+
+.fa-1_5x{
+  font-size: 1.5em;
 }
 
 #create_room .fas {
